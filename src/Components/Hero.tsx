@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <div className="max-w-6xl mx-auto flex  flex-col text-center lg:flex-row lg:text-left items-center gap-10 ">
-      <div className="flex-col m-5">
+      <div className="flex flex-col m-5 flex-1 lg:w-1/2">
         <h1 className="text-7xl font-black tracking-tighter leading-[1.1]">
           <span className="text-indigo-500">Dies</span> ist eine Überschrift
         </h1>

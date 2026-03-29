@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+/* Falls Vite hier noch #root oder body mit Flexbox stylt -> LÖSCHEN */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  display: block; /* WICHTIG: Kein Flex auf dem Body! */
+}

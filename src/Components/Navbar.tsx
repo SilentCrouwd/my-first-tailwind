@@ -8,7 +8,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="flex p-3 max-w-4xl mx-auto space-x-1 items-center justify-between border text-indigo-400 bg-slate-900 rounded-lg shadow-lg">
+    <div className="flex p-3 max-w-6xl mx-auto space-x-1 items-center justify-between border text-indigo-400 bg-slate-900 rounded-lg shadow-lg">
       {/* 1. Logo */}
       <h3 className="mr-10 text-5xl tracking-tighter font-black italic cursor-pointer">
         stripe
