@@ -1,6 +1,7 @@
 import Navbar from "./Components/Navbar";
 import Hero from "./Components/Hero";
 import Section1 from "./Components/Section1";
+import Section2 from "./Components/Section2";
 function App() {
   return (
     <div className="relative z-50 min-h-screen bg-slate-950 text-white overflow-x-hidden ">
@@ -16,6 +17,7 @@ function App() {
       <main className="w-full flex flex-col items-center">
         <Hero />
         <Section1 />
+        <Section2 />
       </main>
     </div>
   );
