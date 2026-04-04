@@ -9,3 +9,19 @@ body {
   margin: 0;
   display: block; /* WICHTIG: Kein Flex auf dem Body! */
 }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* 2. Im @theme-Block nur den animate-* Token referenzieren */
+@theme {
+  --animate-bounce-slow: bounce 2s infinite;
+  --animate-fade-in: fadeIn 5s ease-out;
+}
